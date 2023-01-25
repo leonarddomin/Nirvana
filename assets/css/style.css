@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Nirvana";
+    src: url(../police/NIRVANA.TTF);
+} 
+body{
+    background-color: black;
+}
+a {
+    font-family: "Nirvana";
+    font-size: 25px;
+}
+.navbar{
+    background-color: black;
+} 
+.navbar-dark .navbar-brand{
+    color: yellow;
+    font-size: 40px;
+} 
+
+h1{
+    font-family: "Nirvana";
+    font-size: 50px;
+    color: yellow;
+} 
+
+#disco{
+    max-width: 700px;
+} 
+
+h2{
+    font-family: "Nirvana";
+    font-size: 50px;
+    color: yellow;
+} 
+
