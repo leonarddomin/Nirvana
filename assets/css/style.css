@@ -5,12 +5,13 @@
 body{
     background-color: black;
 }
-a {
+.navbar-brand {
     font-family: "Nirvana";
     font-size: 25px;
 }
 .navbar{
     background-color: black;
+    justify-content: space-around; 
 } 
 .navbar-dark .navbar-brand{
     color: yellow;
@@ -24,12 +25,111 @@ h1{
 } 
 
 #disco{
-    max-width: 700px;
+    max-width: 500px;
 } 
 
-h2{
+#disque{
     font-family: "Nirvana";
-    font-size: 50px;
+    font-size: 60pt;
+    color: yellow;
+    text-decoration: underline;
+} 
+.album-title{
+    color: yellow;
+    font-size: 20px;
+} 
+
+.bands{
+    border-radius: 100%;
+    max-width: 300px;
+    width: 300px;
+} 
+.bio{
+    color: yellow;
+    max-width: 750px;
+    font-size: 13pt;
+} 
+
+.video{
+    background-color: #232525;
+}  
+
+.biographie{
+    background-color: #232525;
+}
+
+#biographie{
+    font-size: 60pt;
+    font-family: "Nirvana";
+    color: yellow;
+    text-decoration: underline;
+}
+#album{
+    font-family: "Nirvana";
+    font-size: 40pt;
+    color: yellow;
+} 
+.artiste{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+} 
+.artistes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-size: 50pt;
+    font-family: "Nirvana";
     color: yellow;
 } 
 
+.rock{
+    max-width: 300px;
+    border-radius: 100%;
+    
+} 
+
+@media(max-width: 428px){
+    .rock{
+        max-width: 100px;
+    } 
+    .text{
+        max-width: 50px;
+        font-size: 8pt;
+    }
+    .navbar-dark .navbar-brand{
+        color: yellow;
+        font-size: 18pt;
+    }
+    .reseaux{
+        display: flex;
+        justify-content: space-around; 
+        max-width: 300px;
+    } 
+}
+
+.text{
+    max-width: 600px;
+    margin: 15px;
+    color: yellow;
+}
+.resume{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13pt;
+}
+.reseaux{
+    display: flex;
+    justify-content: space-evenly; 
+    font-size: 14pt; 
+} 
+
+footer{
+    background-color: #232525;
+} 
+.acces{
+    color: yellow; 
+    font-family: "Nirvana"; 
+    display: flex;
+    justify-content: center;
+}

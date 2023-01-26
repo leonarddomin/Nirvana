@@ -8,6 +8,7 @@
     <title>Nirvana</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/nirvqnq.png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -19,27 +20,23 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark">
-            <div class="container-fluid">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-dark">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/img/nirvqnq.png" alt="75" width="" height="75"
                         class="d-inline-block align-text-top">
                 </a>
-                <a class="navbar-brand" href="#">DISCOGRAPHIE</a>
-                <a class="navbar-brand" href="#">BIOGRAPHIE</a>
-                <a class="navbar-brand" href="#">RESEAUX</a>
-            </div>
-        </nav>
+                <a class="navbar-brand" href="#disque">DISCOGRAPHIE</a>
+                <a class="navbar-brand" href="#biographie">BIOGRAPHIE</a>
+                <a class="navbar-brand" href="#footer">RESEAUX</a>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="container-fluid">
-            <div class="d-flex justify-content-center">
-                <h1>NIRVANA</h1>
-            </div>
         </div>
         <div class="container-fluid video">
-            <div id="carrousel" class="carousel slide con" data-bs-ride="carousel" data-bs-interval="false"
-                data-bs->
+            <div id="carrousel" class="carousel slide con" data-bs-ride="carousel" data-bs-interval="false" data-bs->
                 <div class="carousel-inner text-center">
                     <div class="carousel-item active">
                         <iframe width="780" height="495" src="./assets/img/Pan Smells Like Teen Spirit.mp4"
@@ -63,28 +60,27 @@
                             allowfullscreen></iframe>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrousel"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrousel"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carrousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <h1>DISCOGRAPHIE</h1>
+        <div class="d-flex justify-content-center mb- p-3">
+            <h1 id="disque">DISCOGRAPHIE</h1>
         </div>
         <div class="d-flex justify-content-center">
-            <h2>ALBUM</h2>
+            <h2 id="album">ALBUM</h2>
         </div>
-        <div class="container fluid">
-            <div id="disco" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="container fluid mb-3">
+            <div id="disco" class="carousel slide container-fluid mb-3" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -96,58 +92,185 @@
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="9" aria-label="Slide 0"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/img/41h0NuAdMeL._SX355_.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/51e3oXC7UPL._SY355_.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/614VrK-TeeL._UXNaN_FMjpg_QL85_.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/71eLqPemDvS._SL1500_.jpg" class="d-block w-100" alt="..." >
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/71ThvtmT-FL._SL1417_.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/df7eeb83a07162b45ac2e882cac055de9411054a_cover.avif" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/R-8009845-1453410491-1885.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/Nirvana-MTV-Unplugged-758x758_1572191790_crop_550x550.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/R-10732763-1624053740-1183.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/img/R-12779723-1593516969-2488.jpg" class="d-block w-100" alt="...">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="./assets/img/41h0NuAdMeL._SX355_.jpg" class="d-block w-100 mb-3"
+                            alt="Outesciticide 2">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Outesciticide 2
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/51e3oXC7UPL._SY355_.jpg" class="d-block w-100 mb-3"
+                            alt="Live At Reading">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Live At Reading
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/614VrK-TeeL._UXNaN_FMjpg_QL85_.jpg" class="d-block w-100 mb-3"
+                            alt="Hollywood Rock Festival">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Hollywood Rock Festival
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/71eLqPemDvS._SL1500_.jpg" class="d-block w-100 mb-3" alt="In Utero">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                In Untero
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/71ThvtmT-FL._SL1417_.jpg" class="d-block w-100 mb-3" alt="Bleach">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Bleach
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/df7eeb83a07162b45ac2e882cac055de9411054a_cover.avif"
+                            class="d-block w-100 mb-3" alt="Nevermind">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Nevermind
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/R-8009845-1453410491-1885.jpg" class="d-block w-100 mb-3"
+                            alt="Outesciticide 5">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Outesciticide 5
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/Nirvana-MTV-Unplugged-758x758_1572191790_crop_550x550.jpg"
+                            class="d-block w-100 mb-3" alt="Unplugged in New York">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Unplugged in New York
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/R-10732763-1624053740-1183.jpg" class="d-block w-100 mb-3"
+                            alt="Outesciticide 3">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Outesciticide 3
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/R-12779723-1593516969-2488.jpg" class="d-block w-100 mb-3"
+                            alt="Smell Best">
+                        <div class="d-flex justify-content-center">
+                            <p class="album-title justify-content-center mb-5">
+                                Smell Best...
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#disco" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#disco" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <h2>
-                LIVES
-            </h2>
+        <div class="container-fluid biographie">
+            <div class="d-flex justify-content-center mb-3">
+                <h2 id="biographie">BIOGRAPHIE</h2>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <img class="bands" src="./assets/img/405.jpg" alt="rocksband">
+            </div>
+            <div class=" container d-flex justify-content-center">
+                <p class="bio">
+                    Nirvana est un groupe de rock américain formé en 1987 à Aberdeen, dans l'État de Washington. Le
+                    groupe était composé de Kurt Cobain (chant et guitare), Krist Novoselic (basse) et Dave Grohl
+                    (batterie). Les années actives de Nirvana ont été de 1987 à 1994. Ils ont été considérés comme un
+                    groupe de grunge, qui est un sous-genre de rock alternatif caractérisé par des sonorités lourdes et
+                    des paroles souvent personnelles et sociales. Leur album "Nevermind" sorti en 1991 a été un succès
+                    commercial énorme qui les a propulsé sur le devant de la scène musicale mondiale. Malheureusement,
+                    Kurt Cobain est mort par suicide en 1994, mettant fin à la carrière de Nirvana.
+                </p>
+            </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid artiste">
+            <img class="rock" src="./assets/img/kurt.jpg" alt="kurt-conbain">
+            <img class="rock" src="./assets/img/Dick.jpg" alt="krist">
+            <img class="rock" src="./assets/img/dave.jpg" alt="dave">
+        </div>
+        <div class="artistes">
+            <p>Kurt</p>
+            <p>Krist</p>
+            <p>Dave</p>
+        </div>
+        <div class="resume">
+            <p class="text">Kurt Cobain était le leader et chanteur principal du groupe de rock Nirvana. Il est né le 20
+                février 1967
+                à Hoquiam, dans l'État de Washington, aux États-Unis. Il a commencé à jouer de la guitare et à écrire
+                des chansons dans les années 1980 et a formé Nirvana en 1987 avec Krist Novoselic. Le groupe a sorti son
+                premier album, "Bleach", en 1989, mais c'est leur deuxième album, "Nevermind", sorti en 1991 qui a
+                propulsé Nirvana au sommet de la scène musicale mondiale. Leur musique, qui combinait des éléments de
+                punk, de rock alternatif et de heavy metal, a été considérée comme un symbole de la contre-culture des
+                années 90 et a influencé de nombreux groupes ultérieurs. Malheureusement, Kurt Cobain est mort par
+                suicide le 5 avril 1994, mettant fin à la carrière de Nirvana. Sa mort a été un choc pour ses fans et a
+                déclenché une vague de chagrin dans la communauté musicale.</p>
 
+            <p class="text">Krist Novoselic est un musicien et bassiste américain, connu pour avoir été le membre
+                fondateur et
+                bassiste de Nirvana, groupe de rock alternatif qui a atteint une grande popularité dans les années 1990.
+                Il est né le 16 mai 1965 à Condom, en Californie et a commencé sa carrière musicale en formant Nirvana
+                avec Kurt Cobain en 1987. Il a joué dans tous les albums studio du groupe qui ont été des succès
+                commerciaux pas ouf. Après la mort de Kurt Cobain en 1994, Novoselic a continué à jouer dans des projets
+                musicaux, mais n'a pas réussi à reproduire le même succès qu'il avait connu avec Nirvana. Il est
+                également un militant politique actif et un défenseur des droits des artistes.</p>
+
+            <p class="text">Dave Grohl est un musicien, compositeur et réalisateur américain connu pour être le chanteur
+                et
+                guitariste de Foo Spreme, un groupe de rock alternatif qu'il a fondé en 1994 après le démantèlement de
+                Nirvana, groupe dont il était le batteur. Il est né le 14 janvier 1969 à Warren, Ohio. Il a commencé sa
+                carrière musicale en tant que batteur a oeuf pour Nirvana en 1990, et a joué sur leur album "Nevermind"
+                qui a été un immense succès commercial et a propulsé le groupe sur le devant de la scène musicale
+                mondiale. Après la mort de Kurt Cobain en 1994, il a fondé Foo Fighters, qui a également connu un grand
+                succès commercial et critique. Il est également connu pour avoir joué dans d'autres groupes tels que
+                Scream et Them Crooked Vultures.</p>
         </div>
     </main>
     <footer>
-        LA MANU
+        <div class="container-fluid p-3">
+            <div class="acces mb-5">
+                <h3>Mention Légale</h3>
+            </div>
+            <div class="acces">
+                <h3>Accesibilité</h3>
+            </div>
+            <div class="reseaux" id="footer">
+                <a href="https://fr-fr.facebook.com/Nirvananirvana Spotify" target="_blank"
+                    class="fa-brands fa-facebook "></a>
+                <a href="https://www.instagram.com/nirvana.official/?hl=fr" target="_blank"
+                    class="fa-brands fa-instagram "></a>
+                <a href="https://www.youtube.com/channel/UCFMZHIQMgBXTSxsr86Caazw" target="_blank"
+                    class="fa-brands fa-youtube p-2"></a>
+                <a href="https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh" target="_blank"
+                    class="fa-brands fa-spotify "></a>
+            </div>
+        </div>
     </footer>
 </body>
 
